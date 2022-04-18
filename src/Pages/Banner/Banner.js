@@ -6,14 +6,13 @@ import './Banner.css';
 
 const Banner = () => {
     return (
-        <div className='banner d-flex mt-5'>
-            <div className="banner-title p-2">
-                <p className='p-2'>MARY DOE <span className='text-danger'>Dantist <FontAwesomeIcon icon={faTooth} /></span>
-                </p>
-                <h1 className='w-50 p-2'>Hi! my name is <span className='text-primary'>Mary Doe</span> I am a <span className='colorful'>Doctor</span>.</h1>
+        <div className="container d-flex mt-5">
+            <div>
+                <h1>Hello <span className='text-danger'>Dantist <FontAwesomeIcon icon={faTooth} /></span></h1>
+                <h1>Hi! my name is <span className='text-primary'>Lania</span> I am a <span className='colorful'>Doctor</span>.</h1>
             </div>
             <div>
-                <img className='w-70' src={image} alt="" />
+                <img className='w-70 img-fluid' src={image} alt="" />
             </div>
         </div>
     );
