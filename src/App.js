@@ -12,6 +12,7 @@ import Signup from './Pages/Signup/Signup';
 import Checkout from './Pages/Checkout/Checkout';
 import RequireAuth from './Pages/RequireAuth/RequireAuth';
 
+
 function App() {
   return (
     <div>
