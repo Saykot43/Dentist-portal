@@ -15,8 +15,7 @@ const Header = () => {
     return (
                 <Navbar className='py-2 fs-4 navbar-bg' sticky='top' expand="lg">
                     <Container>
-                        <Navbar.Brand as={Link} to="/" className='fs-3 fw-bold text-danger'>Dantist World</Navbar.Brand>
-                        {/* <Link className='logo' to="/home"><span className='text-danger'>Dantist World</span></Link> */}
+                        <Navbar.Brand as={Link} to="/" className='fs-3 fw-bold text-danger logo'>Dantist World</Navbar.Brand>
                         <Navbar.Toggle aria-controls="navbarScroll" />
                         <Navbar.Collapse id="navbarScroll">
                             <Nav className="ms-auto my-2 my-lg-0"
