@@ -1,18 +1,11 @@
 import React from 'react';
 import './Checkout.css';
-import {toast} from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-toast.configure()
-
+import { ToastContainer, toast } from 'react-toastify';
 const Checkout = () => {
 
     const handleCheckout = event => {
         event.preventDefault();
-    }
-    const notify = ()=>{
- 
-        // Calling toast method by passing string
-        toast('Appointment successfully')
+        toast("Appointment successfully");
     }
 
     return (
@@ -41,10 +34,11 @@ const Checkout = () => {
                                 <input type='text' name='contact' id='contact' placeholder='Enter Mobile Number' required/>
                             </div>
                         </div>
-                        <button onClick={notify} type='submit' className='auth-form-submit'>
+                        <button type='submit' className='auth-form-submit'>
                             Take Appointment
                         </button>
                 </form>
+                <ToastContainer />
             </div>
         </div> 
         </div>
