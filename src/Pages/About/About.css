@@ -1,0 +1,6 @@
+.about-img img {
+    border-radius: 67px;
+    background: #e0e0e0;
+    box-shadow: 30px 30px 54px #9b9b9b,
+        -30px -30px 54px #ffffff;
+}
