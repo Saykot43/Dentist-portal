@@ -101,7 +101,7 @@ const Signin = () => {
                 </p>
                 <div className='d-flex align-items-center justify-content-center'>
                     <p className="redirect ">Forget password?</p>
-                    <p onClick={resetPassword} className="rest text-primary mt-2 ps-2">Reset password</p>
+                    <p onClick={resetPassword} className="reset text-primary mt-2 ps-2">Reset password</p>
                 </div>
                 <div className='horizontal-divider'>
                     <div className='line-left' />
